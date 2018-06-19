@@ -1,0 +1,21 @@
+sudo: false
+language: node_js
+node_js: 8.8.1
+stages:
+- name: Precache
+- name: Lint
+- name: Build
+- name: Deploy
+cache:
+ directories:
+   - node_modules
+jobs:
+   fast_finish: true
+   include:
+   - stage: Precache
+     script: true
+     install: npm install
+   - stage: Lint
+     script: npm run lint
+   - stage: Build
+     script: npm run build
