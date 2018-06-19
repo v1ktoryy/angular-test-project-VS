@@ -19,3 +19,11 @@ jobs:
      script: npm run lint
    - stage: Build
      script: npm run build
+   - stage: Deploy to FireBase
+     script: npm run build
+     deploy:
+        provider: firebase
+        token:
+        secure: encrypt token
+        project: app-id
+        on: development
