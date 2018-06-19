@@ -23,10 +23,7 @@ jobs:
     script: npm run build
     deploy:
       provider: firebase
-      token: 1/dfr5k6dlQ10Tyn1YH7DJRThJB95_LAuKUiq1qkyp4Fw
-      secure: encrypt token
+      token:
+      secure: HwaysQImfzgxfyf4Hu2xS+abrnz95Qy5sE1z6qqqiqzvkyKhHrocHr98FDlRDMIUXy/Wu/EDzoz19dQbCX/L5zx2zweUYoeGK14z0i3c7nYrPzkzJNPjaedcbp4yUGMIYawrDuExRLuQTrn+TX2dMfSVk7R6CUk4qrlPmqcFB5vyLUvYdA8+G0EuIg0jbvDCfQFagwYznRWCtyKl+3+7o7K7jVDoAQIJ7lARPjjPxRjbEAPuMGjfzYLPki9w6GHtK+IaoBr0sT7LCcpIb4wgGrmNR6fLinjJq1HA1sJ+OQCN2T/HE05Bo7pjvwtLOlt14xsMA9dbd+66I3bXp+wVyXLDC919J/MekrgDx1sLACA2MO8niwZABBmqD2lAb6L49LGPeM9IxLqyw7kx6hdMEvFzCcZNyT5aonDp9/wxEXo9EDtTDgzLDfNGAfGvgtYThV+FtD0OEjjw/nQX5EVlYMicw/OM1Whenr62zlzWG5C4jL6VlmSA2FDngD+UrdKjCSpcie3ddA5uiVK+ZsWm+tMPgJH69+LbFw06i8rnx7HFXtGalnqeo0EmvQTFnHbTOPwKNccqviAc7hXe0U1/bnfsghAyVcxp+ATGSZmoGMnq+BUZ73wsuejLLw+Cwt0l1olaAgxluPxY1jqTKj3Z4Giw11vt8bpJT8IJHpe+ynE=
       project: angular-my-first-app
       on: development
-env:
-  global:
-  - secure: HwaysQImfzgxfyf4Hu2xS+abrnz95Qy5sE1z6qqqiqzvkyKhHrocHr98FDlRDMIUXy/Wu/EDzoz19dQbCX/L5zx2zweUYoeGK14z0i3c7nYrPzkzJNPjaedcbp4yUGMIYawrDuExRLuQTrn+TX2dMfSVk7R6CUk4qrlPmqcFB5vyLUvYdA8+G0EuIg0jbvDCfQFagwYznRWCtyKl+3+7o7K7jVDoAQIJ7lARPjjPxRjbEAPuMGjfzYLPki9w6GHtK+IaoBr0sT7LCcpIb4wgGrmNR6fLinjJq1HA1sJ+OQCN2T/HE05Bo7pjvwtLOlt14xsMA9dbd+66I3bXp+wVyXLDC919J/MekrgDx1sLACA2MO8niwZABBmqD2lAb6L49LGPeM9IxLqyw7kx6hdMEvFzCcZNyT5aonDp9/wxEXo9EDtTDgzLDfNGAfGvgtYThV+FtD0OEjjw/nQX5EVlYMicw/OM1Whenr62zlzWG5C4jL6VlmSA2FDngD+UrdKjCSpcie3ddA5uiVK+ZsWm+tMPgJH69+LbFw06i8rnx7HFXtGalnqeo0EmvQTFnHbTOPwKNccqviAc7hXe0U1/bnfsghAyVcxp+ATGSZmoGMnq+BUZ73wsuejLLw+Cwt0l1olaAgxluPxY1jqTKj3Z4Giw11vt8bpJT8IJHpe+ynE=
