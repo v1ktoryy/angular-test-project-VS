@@ -1,10 +1,10 @@
-@import '~@angular/material/theming';
+@import '../node_modules/@angular/material/theming';
 
 @include mat-core();
 
 $my-theme-primary: mat-palette($mat-deep-purple);
 $my-theme-accent: mat-palette($mat-pink, A200, A100, A400);
-$my-theme-warn: mat-light-theme($candy-app-primary, $candy-app-accent);
+$my-theme-warn: mat-palette($mat-red);
 
 $my-theme: mat-light-theme($my-theme-primary, $my-theme-accent, $my-theme-warn);
 
